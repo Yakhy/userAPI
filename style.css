@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user {
+  border: 2px solid;
+  border-radius: 7px;
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+.user:not(:last-child) {
+  margin-right: 25px;
+}
+
+.user {
+  margin-bottom: 20px;
+}
+
+.delete {
+  border: 0;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.user-nameInfo {
+  color: dodgerblue;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding-top: 100px;
+  background: #fff;
+}
+
+.center {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-much {
+  padding: 5px;
+  border-radius: 7px;
+  border: 2px solid dodgerblue;
+  font-family: inherit;
+}
+
+.user-much:focus {
+  outline: 2px solid lightgreen;
+  border: none;
+}
+
+.user-plas {
+  padding: 5px;
+  outline: none;
+  border: 2px solid dodgerblue;
+  border-radius: 7px;
+  background-color: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.clear {
+  background: tomato;
+  color: #fff;
+  border: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-left: 15px;
+  border-radius: 7px;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button:nth-child(1) {
+  background: red;
+  color: #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.button:nth-child(2) {
+  background: dodgerblue;
+  color: #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+.button:nth-child(3) {
+  background: goldenrod;
+  color: #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 8px;
+}
